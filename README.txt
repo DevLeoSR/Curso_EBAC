@@ -1,1 +1,1 @@
-# "Reposit¢rio para exercicios do curso da EBAC" 
+# Repositorio para exercicios do curso da EBAC 
