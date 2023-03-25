@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(20, 20, 20);
+    padding: 16px;
+    color: rgb(255, 255, 255);
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header li {
+    display: inline; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;  
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;    
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 36px;
+}
+
+#Sport{
+    background-color: rgba(8, 160, 84, 0.2);
+}
+
+#Sport .articles article a{
+    background-color: rgb(96, 160, 0);
+
+}
+
+#Economy{
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+#Economy .articles article a{
+    background-color: rgb(255, 166, 0);
+}
