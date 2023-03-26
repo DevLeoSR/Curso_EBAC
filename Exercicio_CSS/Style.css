@@ -26,6 +26,7 @@ header li {
     display: inline; 
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: bold;  
+    
 }
 
 .container {
@@ -101,5 +102,21 @@ section h2{
 }
 
 #Economy .articles article a{
-    background-color: rgb(255, 166, 0);
+    background-color: rgba(255, 166, 0);
+}
+
+#Tecnologia {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+#Tecnologia .articles article a{
+background-color: rgba(82, 82, 245);
+}
+
+#Entreterimento {
+    background-color: rgba(255, 96, 3, 0.2);
+}
+
+#Entreterimento .articles article a{
+    background-color: rgb(124, 34, 34) ;
 }
