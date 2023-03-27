@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: rgb(165, 42, 42);
+}
+
+header, footer {
+    color: white;
+    background-color: brown;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Noto Serif', serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li  a{
+    color: white;
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide-foto{
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    height: 490px;
+}
+
+.navigation{
+position: absolute;
+bottom: 5px;
+justify-content: center;
+display: flex;
+}
+
+.bar{
+    border: 2px solid rgb(165, 42, 42);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 8px;
+    position: relative;
+}
+
+.bar:hover{
+    background-color: rgb(165, 42, 42);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#slider1:checked ~ .one {
+    margin-left: 0;
+}
+
+#slider2:checked ~ .one {
+    margin-left: -800px;
+}
+
+#slider3:checked ~ .one {
+    margin-left: -1600px;
+}
+
+#slider4:checked ~ .one {
+    margin-left: -2400px;
+}
+
+.Social img{
+    height: 36px;
+}
+
+.Social li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.Social li a{
+    text-decoration: none;
+}
+
+h2, h3, P{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-methods{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-25%
+    );
+    font-family: 'Noto Serif', serif;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 600px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Noto Serif', serif;
+}
+
+form textarea{
+    resize: none;
+    height: 200px;
+    margin-top: 8px;
+    font-style:'Noto Serif', serif;
+    font-size: 16px;
+}
+
+form button{
+    background-color: rgb(165, 42, 42);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(200, 42, 42);
+}
+
+input:focus, textarea:focus{
+    outline-color:rgb(200, 42, 42);
+}
+
+#contact{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#b1, #b2{
+    width: 175px; 
+    display: inline-flex;
+    margin-top: 16px;
+}
+
