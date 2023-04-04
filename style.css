@@ -49,7 +49,7 @@ form input{
    
 }
 
-form input[type='button']{
+form button{
    background-color: #009432;
    color: #fff;
    font-size: 24px;
@@ -66,7 +66,7 @@ table th{
    font-weight: bold;
 }
 
-table{
+table, tbody{
    width: 100%;
    max-width: 600px;
 }
@@ -83,7 +83,6 @@ table td img{
 }
 
 .resultado{
-   
    padding: 8px;
    font-weight: bold;
    color: #fff;

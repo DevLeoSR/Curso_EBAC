@@ -17,10 +17,10 @@
          <h1>Calculadora de Médias</h1>
       </header>
       <section>
-         <form id="cadastro">
-            <input type="text" id="atividade" required placeholder="Nome da Atividade">
-            <input type="number" id="nota" required placeholder="Nota" min="0" max="10">
-            <input type="button" value="Adicionar">
+         <form id="Fcadastro">
+            <input type="text" id="Atividade" required placeholder="Nome da Atividade">
+            <input type="number" id="Nota" required placeholder="Nota" min="0" max="10">
+            <button type="submit">Adicionar</button>
          </form>
          <table cellspacing="0">
             <thead>
@@ -30,27 +30,17 @@
                   <th>Situação:</th>
                </tr>
             </thead>
-            <tbody>
-               <tr>
-                  <td>Atividade A</td>
-                  <td>9.5</td>
-                  <td><img src="./images/aprovado.png" alt="emoji festejando"></td>
-               </tr>
-               <tr>
-                  <td>Atividade B</td>
-                  <td>4.5</td>
-                  <td><img src="./images/reprovado.png" alt="emoji  triste"></td>
-               </tr>
-            </tbody>
+            <tbody></tbody>
             <tfoot>
                <tr>
                   <td>Media Final:</td>
-                  <td>7</td>
-                  <td><span class="resultado aprovado">Aprovado</span></td>
+                  <td id="MediaFinal">*</td>
+                  <td id="ResultadoFinal">*</td>
                </tr>
             </tfoot>
          </table>
       </section>
    </div>
+   <script src="./script.js"></script>
 </body>
 </html>
