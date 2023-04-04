@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
    <title>Modulo 8 exercicio</title>
 </head>
 <body>
+   <div class="container">
    <header>
-      <h1><img src="" alt=""> Calculadora de Médias</h1>
+      <img src="./images/logo.png" alt="diploma e capela">
+      <h1>Calculadora de Médias</h1>
    </header>
+   <section>
+      <form id="cadastro">
+         <input type="text" id="atividade" required placeholder="Nome da Atividade">
+         <input type="number" id="nota" required placeholder="Nota" min="0" max="10">
+         <input type="button" value="Adicionar">
+      </form>
+      <table>
+         <thead>
+            <tr>
+               <th>Nome da atividade:</th>
+               <th>Nota:</th>
+               <th>Situação:</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Atividade A</td>
+               <td>9.5</td>
+               <td><img src="./images/aprovado.png" alt="emoji festejando"></td>
+            </tr>
+            <tr>
+               <td>Atividade B</td>
+               <td>4.5</td>
+               <td><img src="./images/reprovado.png" alt="emoji  triste"></td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+               <td>Media Final:</td>
+               <td>7</td>
+               <td>aprovado</td>
+            </tr>
+         </tfoot>
+
+
+      </table>
+   </section>
+
+   </div>
 </body>
 </html>
