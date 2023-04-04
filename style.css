@@ -1,0 +1,43 @@
+body{
+   background-color: antiquewhite;
+}
+
+div{
+   display: block;
+   text-align: center;
+   min-height: 50px;
+}
+
+input, button{
+   width:  300px;
+   height:  25px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: brown;
+}
+
+h1{
+   font-size: 40px;
+   color: brown;
+}
+
+form button{
+   background-color: brown;
+   color: white;
+   border: none;
+}
+
+p{
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.erro{
+   background-color: red;
+   color: white;
+}
+
+.sucess{
+   background-color: green;
+   color: white;
+}
