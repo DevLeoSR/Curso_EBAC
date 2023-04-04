@@ -55,6 +55,6 @@ const Mcorte = parseFloat(prompt('Digite a média de corte'))
    }
    function atualizaMedia(){
       const mediaFinal = calculaMedia();
-      document.getElementById('MediaFinal').innerHTML = mediaFinal;
+      document.getElementById('MediaFinal').innerHTML = mediaFinal.tofixed(2);
       document.getElementById('ResultadoFinal').innerHTML = mediaFinal >= Mcorte ? SpanAprov : SpanReprov;
    }
