@@ -1,1 +1,1 @@
-# Repositorio para exercicios do curso da EBAC 
+Projeto feito no módulo 8 do curso EBAC

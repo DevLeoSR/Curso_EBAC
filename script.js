@@ -4,10 +4,9 @@ const ImgReprov = '<img src="./images/reprovado.png" alt="emoji  triste">'
 var linhas = '';
 const atividades = [];
 const notas = []; 
-const SpanAprov = '<span class="resultado aprovado">Aprovado</span>'
-const SpanReprov = '<span class="resultado reprovado">Reprovado</span>'
-const Mcorte = parseFloat(prompt('Digite a média de corte'))
-
+const spanAprov = '<span class="resultado aprovado">Aprovado</span>';
+const spanReprov = '<span class="resultado reprovado">Reprovado</span>';
+const corte = parseFloat(prompt("Digite a média de corte:"));
 
    form.addEventListener('submit', function(evento){
       evento.preventDefault();
@@ -29,7 +28,7 @@ const Mcorte = parseFloat(prompt('Digite a média de corte'))
          let linha = '<tr>';
          linha += `<td> ${inputAtividade.value}</td>`;
          linha += `<td> ${inputNota.value}</td>`;
-         linha += `<td> ${inputNota.value >= Mcorte ? ImgAprov : ImgReprov}</td>`;
+         linha += `<td> ${inputNota.value >= corte ? ImgAprov : ImgReprov}</td>`;
          linha += '</tr>';
    
          linhas += linha ;
@@ -55,6 +54,6 @@ const Mcorte = parseFloat(prompt('Digite a média de corte'))
    }
    function atualizaMedia(){
       const mediaFinal = calculaMedia();
-      document.getElementById('MediaFinal').innerHTML = mediaFinal.tofixed(2);
-      document.getElementById('ResultadoFinal').innerHTML = mediaFinal >= Mcorte ? SpanAprov : SpanReprov;
+      document.getElementById('MFinal').innerHTML = mediaFinal.toFixed(2);
+      document.getElementById('RFinal').innerHTML = mediaFinal >= corte ? spanAprov : spanReprov
    }
