@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+  <script src="./main.js" defer></script>
+  <title>Galeria de fotos</title>
+</head>
+<body>
+  <header>
+    <h1>galeria de fotos:</h1>
+    <button type="button">nova imagem</button>
+  </header>
+  <main>
+    <form>
+      <h2>inserir imagem</h2>
+      <input type="url" id="end-img-nova" placeholder="URL da imagem">
+      <button type="submit">adicionar</button>
+      <button type="reset" id="btn-cancelar">cancelar</button>
+    </form>
+    <ul>
+      <li>
+        <img src="./images/foto1.jpg" alt="pintura de um gato">
+        <div class="overlay-img-link">
+          <a href="./images/foto1.jpg" title="ver imagem em tamanho real" target="_blank"> ver imagem em tamanho real </a>
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto2.jpg" alt="pintura de um Flamingo">
+        <div class="overlay-img-link">
+          <a href="./images/foto2.jpg" title="ver imagem em tamanho real" target="_blank"> ver imagem em tamanho real </a>
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto3.jpg" alt="pintura de dois cães">
+        <div class="overlay-img-link">
+          <a href="./images/foto3.jpg" title="ver imagem em tamanho real" target="_blank"> ver imagem em tamanho real </a>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
