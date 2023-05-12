@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::first-letter {
+  text-transform: uppercase;
+}
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+form{
+  : 2px solid #ff4800 ;
+}
+
+h1{
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px #ff4800;
+}
+
+label{
+  display: block; 
+  font-size: x-large;
+}
+
+input{
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.2em;
+  background-color: #fff;
+  border: 0.2em solid #808080;
+  font-size: larger;
+}
+
+input:focus, button:focus , button:hover{
+  outline: none;
+  border: 0.2em solid #ff4800 ;
+}
+
+button{
+  width: 60%;
+  margin-left: 20%;
+  height: 2.5rem; 
+  cursor: pointer; 
+  background-color: #006f00;
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.45rem;
+  margin-top: 1rem;
+}
+
